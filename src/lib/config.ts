@@ -27,7 +27,7 @@ interface Config {
       API_KEY: string;
     };
     GEMINI: {
-      API_KEY: process.env.GEMINI_API;
+      API_KEY: process.env.GEMINI_API,
     };
     OLLAMA: {
       API_URL: string;
